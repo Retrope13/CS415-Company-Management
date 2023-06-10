@@ -1,0 +1,92 @@
+.flex-container {
+	display: flex;
+}
+
+.flex-child {
+	flex: 1;
+	border: 2px solid #658864;
+	margin-right: 2px;
+}
+
+.satisfied {
+	background-color: lightgreen;
+}
+
+.missing {
+	background-color: #FFCCCB;
+}
+
+button {
+	margin: .2vw;
+	padding: .5vw;
+	background-color: #658864;
+	border-radius: 0px;
+	font-family: sans-serif;
+	cursor: pointer;
+}
+
+.modal {
+	position: fixed;
+	z-index: 1;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+	background-color: #fefefe;
+	margin: 15% auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 50%;
+	max-width: 500px;
+  }
+
+  input {
+	margin-bottom: .5%;
+	display: block;
+  }
+
+  label {
+	display: inline-block;
+  }
+
+  .input-container {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 10px;
+  }
+
+  #projectSizeLabel {
+	margin-right: 2.45%;
+  }
+
+  input {
+	width: 90%
+  }
+
+  select {
+	width: 90%;
+  }
+
+  .start {
+	margin: .2vw;
+	padding: .5vw;
+	background-color: #658864;
+	border-radius: 0px;
+	font-family: sans-serif;
+	cursor: pointer;
+  }
+
+  .finish {
+	margin: .2vw;
+	padding: .5vw;
+	background-color: #e7442f;
+	border-radius: 0px;
+	font-family: sans-serif;
+	cursor: pointer;
+  }
